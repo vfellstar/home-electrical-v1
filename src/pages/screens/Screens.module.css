@@ -1,0 +1,47 @@
+.background {
+	color: aqua;
+	margin-top: 0%;
+}
+
+.homeBackground {
+	
+	width: 100%;
+	height: 100%;
+	background-image: url('../../../png/home.png');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+}
+
+.homeTextBox {
+	margin-top: 5%;
+	width: 50%;
+	transform: translateY(12vh);
+	padding-bottom: 10vh;
+
+}
+.homeTextBox2 {
+	width: 50%;
+	margin-top: 20vh;
+	margin-left: 45%;
+}
+
+
+
+
+@media all and (max-width: 600px){
+	.homeTextBox {
+		width: 90%;
+		
+		margin: auto;
+	}
+	.homeTextBox2 {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20%;
+
+	}
+}

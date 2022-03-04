@@ -1,0 +1,42 @@
+.background {
+	transform: translateY(15vh);
+	color: rgb(0, 0, 0);
+	width: 70%;
+	height: 10%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.titleArea {
+	padding-left: 2rem;
+}
+.priceArea {
+	padding-right: 2rem;
+}
+
+.product {
+	background-color: #fcfcfca1;
+	display: flex;
+	justify-content: space-between;
+	margin: 1rem;
+	border: 2px solid #bd0600;
+	padding: 10px;
+	border-radius: 12px;
+  }
+  
+.product h3 {
+	margin: 0 0 0.25rem 0;
+}
+
+.description {
+	font-style: italic;
+}
+
+.price {
+	margin-top: 0.25rem;
+	font-weight: bold;
+	color: #000000;
+	font-size: 1.25rem;
+	margin-right: 0.25rem;
+}

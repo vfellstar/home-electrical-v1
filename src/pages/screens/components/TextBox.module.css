@@ -1,0 +1,28 @@
+.textbox {
+	background-color: rgba(255, 255, 255, 0.452);
+	text-align: justify;
+	text-justify: inter-word;
+	width: 90%;
+	margin: auto;
+	margin-bottom: 10px;
+	border-radius: 25px;
+	padding: 2px;
+	border: 2.5px solid rgb(255, 0, 0);
+}
+.header {
+	color: black;
+	text-align: center;
+}
+.text {
+	color: black;
+	text-align: center;
+}
+
+@media all and (min-width: 1600px) {
+	.header {
+		font-size: x-large;
+	}
+	.text {
+		font-size:x-large;
+	}
+}
