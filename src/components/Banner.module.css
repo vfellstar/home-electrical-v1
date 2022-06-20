@@ -35,6 +35,22 @@
 
 }
 
+.link_box {
+	
+	transform: translateX(-30%);
+}
+
+.which {
+		/* image 1 */
+		padding: 1px;
+		padding-right: 10%;
+		position: relative;
+		width: 270px;
+		height: 121.33px;
+		/* you need to match the shadow color to your background or image border for the desired effect*/
+	
+}
+
 .unordered_list li {
 	width: 100%;
 	display: inline;
