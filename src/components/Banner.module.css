@@ -41,7 +41,6 @@
 }
 
 .which {
-		/* image 1 */
 		padding: 1px;
 		padding-right: 10%;
 		position: relative;
@@ -49,6 +48,32 @@
 		height: 121.33px;
 		/* you need to match the shadow color to your background or image border for the desired effect*/
 	
+}
+.which_hovered {
+	padding: 1px;
+	padding-right: 10%;
+	position: relative;
+	width: 240px;
+	height: 121.33px;
+	transform: translate(5%, 5%);
+}
+
+.nic {
+			padding: 1px;
+			padding-right: 10%;
+			position: relative;
+			width: 220px;
+			height: 111.33px;
+			/* you need to match the shadow color to your background or image border for the desired effect*/
+}
+
+.nic_hovered {
+	padding: 1px;
+	padding-right: 10%;
+	position: relative;
+	width: 220px;
+	height: 111.33px;
+	transform: translate(-5%, 5%);
 }
 
 .unordered_list li {
